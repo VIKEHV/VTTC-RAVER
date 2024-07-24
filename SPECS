@@ -1,0 +1,12 @@
+Vacuum tube: 6961A TRIODE. https://www.relltubes.com/documents/Datasheets/6961A.pdf
+Transformer: 2x 5kW 120v-4200V transformers under oil in antiseries configuration to reduce dielectric stress.
+Doubler: Ronken 1200V Capacitors: 4 in series, 3 in parallel with 20kV 6A diode
+Primary: Tappable 40 turns of 14AWG, reinforced top two turns with PVC tubing. MICA capacitors ranging from 100pF to 2875 PF for maximum tuning range. Optional K15-Y  15KV Capacitors for dialing resonance in further to account for arc loading.
+Secondary: 3 Different secondaries.
+ 1FT 3.5 Inch DIA 550T with a resonant frequency of 550kHz. LOWEST IMPEDANCE!!!
+ 2ft 4 inch diameter, with fiberglass spacing rods for thermal isolation. 609 turns of 18AWG. HIGHEST FREQUENCY!!!
+18 inch 4ft diameter, no fiberglass rods. 1200t of 26AWG. Resonant frequency of 200kHz accounting for breakout. LOWEST FREQUENCY!!!
+
+Longest arc length: 39 INCHES
+
+Avg. current draw: 35A @ 240V
