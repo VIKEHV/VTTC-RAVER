@@ -1,0 +1,9 @@
+To find the resonant frequency of the secondary on our air-core transformer, we must perform calculations and test it with smaller, self tuning circuits such as the Slayer Exciter circuit. 
+
+The resonant frequency calculations include all internal and external affects due to the variations in capacitance's from proximity affects of all system components. 
+The resonant frequency calculations must also account for variations in inductance's and capacitance's due to the non-uniform current distribution which occurs at the resonant frequency of the resonator. 
+At this frequency range, wires become inductors and capacitors, and this effect increases with frequency.
+
+Self tuning circuits such as the slayer have a nasty habit of ringing other harmonics, such as +2 or -1. To solve this, if you suspect you are reading a sub-harmonic of +1, simply divide the frequency in half. This will give a rough estimate when you are searching for resonance.
+
+Should you have a signal generator, wrap 3 turns around your secondary coil with spacing that mimics the coupling of your real setup. Sweep from 100kHz to 2MHz, and monitor which frequency rings the highest voltage on a nearby antenna. That will be your first harmonic.
