@@ -1,0 +1,11 @@
+The primary will have the grueling task of being in near-contact with our high voltage output. It is highly coupled to our secondary due to its vertical form. RF has a way with insulation. Your wire insulation becomes the dielectric to an invisible capacitor.
+One must have a good imagination to understand this fully. 
+How do we overcome this? Simply turn our wire insulation into mostly air!! :^) 
+
+By using fiberglass standoffs on our PVC form, we can enhance the kv/cm on our primary PVC form. Through my testing, I found that under 10kv/CM will work fine. 
+This standoff method also saves our PVC form should the primary windings overheat during high power operation. 
+
+Our connection terminals should not have any sharp points. This opens the door to leakage inductance, which messes with our impedance matching. It will also happily break out with corona discharge into open air, because after the doubler and with all the
+resonance business being done, the anode can be seeing 30kV even with 8kV input. As we can see with the breakout on the top load of the secondary, RF sure loves its breakout points and sharp edges. :^)
+
+Our top two windings nearst to the top load should be shielded. To accomplish this, I pulled 15kV wire through some PVC tubing with a rubber coating which i tested for carbon. This makes the breakout more hesitant to strike our primary. 
