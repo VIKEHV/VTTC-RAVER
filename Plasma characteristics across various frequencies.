@@ -1,0 +1,19 @@
+An interesting note is the "sword" appearance of the plasma breakout. 
+Lower frequencies tend to branch out and bush, however, they still retain this sword shape. 
+Higher frequencies, which have an easier time capacitively coupling to ground, do not branch out as much, and take on a longer shape. 
+The low turn count which one requires to achieve a high resonant frequency tends to lower the impedance across the secondary. This can intensify the length of a breakout, as well as the current in the breakout. 
+
+Measuring the peak current with a current shunt on the RF ground line and an oscilloscope reads a current reading of 1 amp. But how is this possible with roughly ~7kW input? 
+
+The secret lies in the class C operation of this oscillator. In class C operation, the vacuum tube is only conducting 30% of the cycle. This allows high peak currents within the primary, inducing a stronger magnetic field for the secondary to ring from. 
+
+So is this a free energy device?
+No. Alot of this power is reactive power. One can keep dreaming. :^)
+
+What about that sword shape?
+
+The doubler output is not perfect DC. This means the anode is being "ramped" by a half-wave waveform from mains, so the voltage on the anode rises as the breakout grows, then dies out as voltage drops.
+
+If we had a perfectly smooth waveform coming into the anode, i believe this would be detrimental to the output as well as thermal efficiency.
+
+We can perhaps only let the cathode conduct during this ramp period through cathode modulation, to better the efficiency of this tesla coil. This would in theory allow the doubler to dump more peak current across the anode, and result in a more powerful output.
