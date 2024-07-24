@@ -1,0 +1,16 @@
+These hefty transmitter tubes need their grid to be driven quite hard to pull them off. 
+
+By nature, vacuum tubes conduct with a grid voltage at -0v. They become a diode with high positive voltages. This is a very big difference from typical solid-state technology, which require a positive voltage to conduct.
+
+In order to switch this vacuum tube off, the datasheet states that a minimum negative bias of 250v is required. But with a grid headroom of 1250v, you can drive this tube quite hard to lower the impedance across the tube.
+
+After a few 10h days of playing with the values, a grid leak capacitance of 10nF paired with a resistance of 242 ohms from a lightbulb proved to be the best for driving our grid. 
+We can get the voltage required from having a terinary coil on our primary form, which picks up off of the primary. This helps sync our grid leak to the half wave ramp cycle. 
+
+Here is how it all starts.
+Voltage is applied to the plate, thus pulling electrons from the cathode.  The tube conducts, and as it does, the tank circuit is ringing.  The primary rings up the secondary, but also couples some energy into the grid feedback coil.
+  This terinary coil sends a strong negative pulse to the grid, turning the tube off.  When this happens, the negative charge is stored in the capacitor of the grid leak circuit, holding the vacuum tube off for the remainder of our RF cycle.
+    Eventually, the resistor bleeds off the extra charge in our capacitor, and the tube is allowed to conduct again as the tank reverses its oscillation cycle. 
+      This oscillation generates a strong negative bias.  This happens at whatever rate the tank circuit is tuned to. 
+
+What i've just described has been coined as Class C operation.  The tube is actually conducting 20-30% for each cycle! Pretty efficient for our purposes, if you ask me. :^)
