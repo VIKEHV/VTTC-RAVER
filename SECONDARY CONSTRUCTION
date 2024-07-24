@@ -1,0 +1,12 @@
+The secondary should be treated as a component that must handle 500kV at 7kW. With such a low impedance, this means that heating can become an issue. Similar to the primary construction, you should use fiberglass dowels to space it from the PVC form. 
+This construction has an added bonus of keeping your dielectric losses low! 
+
+I chose 18AWG because it will put forward a low impedance and it will handle the high pulse current from the ramp. 
+
+Some napkin math shows how dead simple construction is.
+
+For calculating the turns, simply multiply your wire diameter by the length in mm of your secondary.
+In our case, 1mm D X 609MM H = 609 turns. 
+For calculating the length of wire, measure how much length you use for one turn, then multiply by height. 
+
+To fortify our secondary dielectric, just spray some clearcoat over the windings. If you must, add armor to minimize KV/CM. 
